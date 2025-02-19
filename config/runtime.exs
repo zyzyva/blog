@@ -113,8 +113,3 @@ if config_env() == :prod do
   #
   # See https://hexdocs.pm/swoosh/Swoosh.html#module-installation for details.
 end
-four_hours = (4 * 60 * 60 * 1000)
-one_day = (24 * 60 * 60 * 1000)
-
-config :blog, cache_ttl: one_day
-config :blog, cache_ttl_long: one_day
