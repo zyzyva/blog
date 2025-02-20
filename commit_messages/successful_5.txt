@@ -1,0 +1,22 @@
+# LLama 3.3
+
+Commit Message:
+
+"Move config from dev.exs to runtime.exs and change cache_ttl from 4 hours to 24 hours"
+
+Changes:
+
+* Moved config from `dev.exs` to `runtime.exs`.
+* Changed `cache_ttl` from `(4 * 60 * 60 * 1000)` (4 hours) to `(24 * 60 * 60 * 1000)` (24 hours).
+* Added `cache_ttl_long` set to `(24 * 60 * 60 * 1000)` (24 hours).
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch commit-hook-test
+# Your branch is up to date with 'origin/commit-hook-test'.
+#
+# Changes to be committed:
+#	modified:   config/config.exs
+#	modified:   config/dev.exs
+#

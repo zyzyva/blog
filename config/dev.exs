@@ -77,3 +77,9 @@ config :phoenix, :plug_init_mode, :runtime
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
+
+four_hours = (4 * 60 * 60 * 1000)
+one_day = (24 * 60 * 60 * 1000)
+
+config :blog, cache_ttl: one_day
+config :blog, cache_ttl_long: one_day

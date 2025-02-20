@@ -62,9 +62,3 @@ config :phoenix, :json_library, Jason
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config "#{config_env()}.exs"
-
-four_hours = (4 * 60 * 60 * 1000)
-one_day = (24 * 60 * 60 * 1000)
-
-config :blog, cache_ttl: four_hours
-config :blog, cache_ttl_long: one_day
