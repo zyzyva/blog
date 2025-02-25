@@ -1,0 +1,5 @@
+#CodeLlama:34B
+Add commit message based on given diff.
+
+* Move blog.cache_ttl from dev.exs to config.exs, changing value from 
+  one_day (24 hours) to four_hours (4 hours)
