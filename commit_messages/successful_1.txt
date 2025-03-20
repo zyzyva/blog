@@ -1,0 +1,8 @@
+#codellama
+Here is the commit message generated based on the provided git diff:
+
+"Update config for runtime environment
+* Move config from config/dev.exs to config/runtime.exs
+* Remove four_hours variable and replace with one_day variable
+* Update cache_ttl value to one_day in blog module
+* Update cache_ttl_long value to one_day in blog module"

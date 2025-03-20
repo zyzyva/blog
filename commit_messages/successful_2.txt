@@ -1,0 +1,7 @@
+#codellama
+Here's the generated commit message based on the provided GIT DIFF:
+
+"Update configuration for production environment to use one day as cache ttl"
+
+* config :blog, cache_ttl: four_hours -> one_day (variable = 4 * 60 * 60 * 1000)
+* config :blog, cache_ttl_long: one_day -> one_day (variable = 24 * 60 * 60 * 1000)

@@ -17,7 +17,8 @@ defmodule Blog.Application do
       # Start Finch
       {Finch, name: Blog.Finch},
       # Start the Endpoint (http/https)
-      BlogWeb.Endpoint
+      BlogWeb.Endpoint,
+      {Cachex, name: :blog_cache}
       # Start a worker by calling: Blog.Worker.start_link(arg)
       # {Blog.Worker, arg}
     ]
